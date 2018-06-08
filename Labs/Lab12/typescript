@@ -1,0 +1,38 @@
+Script started on Wed Apr 11 23:31:00 2018
+[?1034hbash-3.2$ ls -an
+total 48
+drwxr-xr-x   8 501  20   256 Apr 11 23:25 .
+drwxr-xr-x  11 501  20   352 Apr  8 00:09 ..
+-rw-r--r--@  1 501  20  6148 Apr  8 01:06 .DS_Store
+-rwxr-xr-x   1 501  20  8712 Apr 11 23:25 a.out
+drwxr-xr-x   5 501  20   160 Apr  8 01:06 hi
+-rw-r--r--@  1 501  20  2709 Apr 11 23:25 ls.c
+drwxr-xr-x   2 501  20    64 Apr 11 10:57 no
+-rw-r--r--@  1 501  20    43 Apr 11 23:31 typescript
+bash-3.2$ ls -a[K[K[K[K[K./a.out -a[Kn .
+Permission UserId  GrpId   Name
+drwxr-xr-x 501	   20	   .                   
+drwxr-xr-x 501	   20	   ..                  
+-rw-r--r-- 501	   20	   .DS_Store           
+-rw-r--r-- 501	   20	   ls.c                
+drwxr-xr-x 501	   20	   no                  
+-rw-r--r-- 501	   20	   typescript          
+-rwxr-xr-x 501	   20	   a.out               
+drwxr-xr-x 501	   20	   hi                  
+bash-3.2$ ls -i
+8598003688 a.out	8597743662 ls.c		8597979909 typescript
+8597743959 hi		8597980563 no
+bash-3.2$ ./a.out -i .
+Inode#		   Name
+8597743657	   .                   
+8593236851	   ..                  
+8597744999	   .DS_Store           
+8597743662	   ls.c                
+8597980563	   no                  
+8597979909	   typescript          
+8598003688	   a.out               
+8597743959	   hi                  
+bash-3.2$ exit
+exit
+
+Script done on Wed Apr 11 23:31:32 2018
